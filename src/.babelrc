@@ -1,0 +1,20 @@
+{
+        // The below config does not work in Babel 6.x, so to make it work an entry in webpack.config.js
+        // is required.
+        // Note the "stage-0" against the presets key under query key under loaders which is the equivalent of
+        // "stage": 0 in Babel 5.x
+        //
+        // module: {
+        //        loaders: [
+        //            {
+        //                test: /\.jsx?$/,
+        //                exclude: /node_modules/,
+        //                loader: 'babel',
+        //                query: {
+        //                    presets: ['es2015', 'stage-0', 'react']
+        //                }
+        //            }
+        //        ]
+        //    }
+    // "stage": 0
+}
